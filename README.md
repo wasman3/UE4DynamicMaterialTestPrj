@@ -19,6 +19,7 @@ https://docs.unrealengine.com/latest/JPN/Engine/Rendering/Materials/MaterialInst
 下記のコントローラーでOキーでフェードアウト、Iキーでフェードイン処理をさせています。
 ` \UE4DynamicMaterialTestPrj\Content\TopDownBP\Blueprints\TopDownController.uasset`
 キャラクターブループリントのカスタムイベントを呼び出しています。<br>
+（ホイールスクロールでカメラのズームイン・ズームアウト処理も入ってます）<br>
 <br>
 下記がキャラクターのマテリアルでここでオパシティーを外部からいじれるようにしています
 ` \UE4DynamicMaterialTestPrj\Content\Mannequin\Character\Materials\TestMat.uasset`
@@ -31,6 +32,6 @@ https://docs.unrealengine.com/latest/JPN/Engine/Rendering/Materials/MaterialInst
 https://twitter.com/WassyPg/status/646506564728188941
 
 
-# 注意画面
-最初にStarterContentありを指定したため、プロジェクトを開くと<br>
-StarterContentが自動的に作成されます…。
+# 注意点
+最初にプロジェクト作成時にStarterContentありを指定したため、<br>
+プロジェクトを開くとStarterContentが自動的に作成されます…。
