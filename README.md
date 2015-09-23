@@ -7,6 +7,7 @@ TopDownテンプレートを使用してます。Versionは4.9.1<br>
 参考公式ドキュメント<br>
 https://docs.unrealengine.com/latest/JPN/Engine/Rendering/Materials/MaterialInstances/index.html
 
+# 対応内容
 下記のキャラクターブループリント内でキャラクターのマテリアルを変更する処理をしています
 ` \UE4DynamicMaterialTestPrj\Content\TopDownBP\Blueprints\TopDownCharacter.uasset`
 <br>
@@ -26,6 +27,10 @@ https://docs.unrealengine.com/latest/JPN/Engine/Rendering/Materials/MaterialInst
 
 上記の箇所以外はテンプレートをそのまま使用しています。
 
-*動作画面*
-<br>
+# 動作画面
 https://twitter.com/WassyPg/status/646506564728188941
+
+
+# 注意画面
+最初にStarterContentありを指定したため、プロジェクトを開くと<br>
+StarterContentが自動的に作成されます…。
